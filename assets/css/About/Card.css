@@ -1,0 +1,31 @@
+.main_about{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: #222324;
+  color: white;
+
+}
+
+.right-items {
+  width: 70%;
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+  
+  .right-items {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 800px) {
+    .main_about > div{
+        width: 100% !important;
+        font-size: small !important;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.carousel{
+    background-color: #2d2d2d;
+}
+
+.carousel-item img{
+    margin: 0 auto;
+}
+
+.carousel-indicators{
+    bottom: 50 !important;
+}

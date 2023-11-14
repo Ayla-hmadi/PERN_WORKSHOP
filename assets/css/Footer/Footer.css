@@ -1,0 +1,16 @@
+.bg_beige {
+  background: #222324;
+}
+
+.links .link-red  a:after {
+  display: block;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(to right, #9f1e22 0%, #c13136 100%);
+  content: "";
+  transition: width 0.2s;
+}
+
+.links .link-red  a:hover:after{
+  width: 100%;
+}

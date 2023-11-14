@@ -1,0 +1,98 @@
+
+.hiMain{
+    background-color: #222324;
+}
+.main_home {
+  color: white;
+  height: 600px;
+}
+
+.title_main {
+  width: 100%;
+  text-align: center;
+}
+
+.title_main h2 {
+  padding-top: 20vh;
+  font-size: 60px;
+  margin: 0 60px;
+}
+
+.title_main h1 {
+  font-size: 100px;
+  margin: 0 60px;
+}
+
+.highlightedProducts{
+    text-align: center;
+}
+
+.highTitle {
+  background-color: #222324;
+  
+}
+.highlightedProducts .products_main {
+    display: flex;
+    justify-content: center;
+    background-color: #222324;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.customButton{
+    padding: 10px 20px;
+    border-radius: 30px;
+    height: fit-content;
+}
+
+.ContactusMain {
+    background: #222324;
+}
+@media screen and (max-width: 991px) {
+  .main_home {
+    background-image: url("");
+    text-align: center;
+    width: 100vw;
+  }
+
+  .title_main h2 {
+    padding-top: 30vh;
+    font-size: 30px;
+    margin: 0 60px;
+  }
+
+  .title_main h1 {
+    font-size: 50px;
+    margin: 0 60px;
+  }
+
+  .highlightedProducts .products_main{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 282px) {
+  .title_main h2 {
+    padding-top: 30vh;
+    font-size: 20px;
+    margin: 0 60px;
+  }
+
+  .title_main h1 {
+    font-size: 30px;
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .title_main h2 {
+    padding-top: 30vh;
+    font-size: 10px;
+    margin: 0 60px;
+  }
+
+  .title_main h1 {
+    font-size: 20px;
+    margin: 0 60px;
+  }
+}

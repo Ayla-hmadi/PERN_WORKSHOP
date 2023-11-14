@@ -1,0 +1,21 @@
+.product_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:  auto;
+    width: 100%;
+    background: #222324;
+    justify-content: center;
+    
+}
+
+.custom{
+    background: #222324;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .custom > div{
+        width: 100% !important;
+        font-size: small !important;
+    }
+  }

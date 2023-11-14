@@ -1,0 +1,135 @@
+
+.card_main {
+  border: 0;
+  background: transparent;
+}
+
+.row {
+  padding: 30px;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: fit-content;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #222324;
+}
+
+.row > * {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.body_contact {
+  background-color: rgb(81, 81, 81);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  backdrop-filter: blur(6px);
+  padding: 100px 30px;
+  text-align: center;
+  border-radius: 40px;
+  height: fit-content;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.body_contact > * {
+  margin: 20px 0px;
+}
+
+.body_contact ul {
+  list-style: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 3px solid white;
+  resize: none;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  color: white;
+  border-color: white;
+  margin: 0;
+  background-color: transparent;
+  border-width: 3px;
+}
+
+#sendm {
+  margin: 0 auto;
+}
+
+.body_form {
+  background-color: rgb(81, 81, 81);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  backdrop-filter: blur(6px);
+  padding: 100px 30px;
+  text-align: center;
+  border-radius: 40px;
+  height: fit-content;
+  width: 100%;
+}
+
+#title_contact_us {
+  margin-bottom: 5vh;
+}
+
+.custom_btn {
+  width: fit-content;
+  background-color: rgb(112, 112, 112);
+  border: 3px solid white;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 13px 50px;
+  background-color: rgb(159, 30, 34);
+}
+
+@media screen and (max-width: 991px) {
+  .row {
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    font-size: smaller;
+  }
+
+  .zero_margin{
+    margin: 0;
+    width: 90vw;
+  }
+  .row div .card_main .card-body , .row div .card_main .card-body{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:535px) {
+  .row{
+    font-size: small;
+  }
+
+  .card-body>ul>li{
+    margin: auto 0;
+  }
+
+  .card-body>ul{
+    padding: 0;
+  }
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
